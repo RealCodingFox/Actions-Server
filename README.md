@@ -1,4 +1,4 @@
-** Launched once. **
+Launched once.
 # Minecraft GitHub Actions Server
 
 This repository contains the configuration for automatically deploying and managing a Minecraft server using GitHub Actions and playit.gg.
