@@ -64,6 +64,7 @@ stats:
 world-settings:
   default:
     verbose: true
+    mob-spawn-range: 4
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -112,7 +113,6 @@ world-settings:
       raiders: 48
       tick-inactive-villagers: true
       ignore-spectators: false
-    mob-spawn-range: 4
     entity-tracking-range:
       players: 48
       animals: 48
@@ -144,10 +144,10 @@ world-settings:
     max-tick-time:
       tile: 50
       entity: 50
+    item-despawn-rate: 6000
     merge-radius:
       item: 2.5
       exp: 3.0
-    item-despawn-rate: 6000
     arrow-despawn-rate: 1200
     enable-zombie-pigmen-portal-spawns: true
     wither-spawn-sound-radius: 0
