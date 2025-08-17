@@ -64,7 +64,26 @@ stats:
 world-settings:
   default:
     verbose: true
-    mob-spawn-range: 4
+    anti-xray:
+      enabled: true
+      engine-mode: 1
+      hide-blocks:
+      - 14
+      - 15
+      - 16
+      - 21
+      - 48
+      - 49
+      - 54
+      - 56
+      - 73
+      - 74
+      - 82
+      - 129
+      - 130
+      replace-blocks:
+      - 1
+      - 5
     nerf-spawner-mobs: false
     growth:
       cactus-modifier: 100
@@ -93,32 +112,13 @@ world-settings:
       raiders: 48
       tick-inactive-villagers: true
       ignore-spectators: false
+    mob-spawn-range: 4
     entity-tracking-range:
       players: 48
       animals: 48
       monsters: 48
       misc: 32
       other: 64
-    anti-xray:
-      enabled: true
-      engine-mode: 1
-      hide-blocks:
-      - 14
-      - 15
-      - 16
-      - 21
-      - 48
-      - 49
-      - 54
-      - 56
-      - 73
-      - 74
-      - 82
-      - 129
-      - 130
-      replace-blocks:
-      - 1
-      - 5
     ticks-per:
       hopper-transfer: 8
       hopper-check: 1
@@ -144,14 +144,14 @@ world-settings:
     max-tick-time:
       tile: 50
       entity: 50
-    item-despawn-rate: 6000
     merge-radius:
       item: 2.5
       exp: 3.0
+    item-despawn-rate: 6000
     arrow-despawn-rate: 1200
     enable-zombie-pigmen-portal-spawns: true
-    view-distance: default
     wither-spawn-sound-radius: 0
+    view-distance: default
     hanging-tick-frequency: 100
     zombie-aggressive-towards-villager: true
     chunks-per-tick: 650
