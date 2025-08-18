@@ -64,6 +64,7 @@ stats:
 world-settings:
   default:
     verbose: true
+    mob-spawn-range: 4
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -105,7 +106,6 @@ world-settings:
       bamboo-modifier: 100
       sweetberry-modifier: 100
       kelp-modifier: 100
-    mob-spawn-range: 4
     entity-activation-range:
       animals: 32
       monsters: 32
@@ -150,8 +150,8 @@ world-settings:
       exp: 3.0
     arrow-despawn-rate: 1200
     enable-zombie-pigmen-portal-spawns: true
-    view-distance: default
     wither-spawn-sound-radius: 0
+    view-distance: default
     hanging-tick-frequency: 100
     zombie-aggressive-towards-villager: true
     chunks-per-tick: 650
