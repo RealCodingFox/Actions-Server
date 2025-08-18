@@ -85,6 +85,7 @@ world-settings:
       - 1
       - 5
     nerf-spawner-mobs: false
+    mob-spawn-range: 4
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -118,7 +119,6 @@ world-settings:
       monsters: 48
       misc: 32
       other: 64
-    mob-spawn-range: 4
     ticks-per:
       hopper-transfer: 8
       hopper-check: 1
@@ -144,10 +144,10 @@ world-settings:
     max-tick-time:
       tile: 50
       entity: 50
+    item-despawn-rate: 6000
     merge-radius:
       item: 2.5
       exp: 3.0
-    item-despawn-rate: 6000
     arrow-despawn-rate: 1200
     enable-zombie-pigmen-portal-spawns: true
     view-distance: default
